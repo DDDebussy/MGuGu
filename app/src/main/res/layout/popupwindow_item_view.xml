@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/popupwindow_relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/glass">
+
+        <ImageView
+            android:id="@+id/popoupwindow_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="20dp"
+            android:src="@mipmap/tabbar_compose_camera" />
+
+        <ImageView
+            android:id="@+id/popupwindow_idea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="20dp"
+            android:src="@mipmap/tabbar_compose_idea" />
+
+        <ImageView
+            android:id="@+id/popupwindow_lbs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="20dp"
+            android:src="@mipmap/tabbar_compose_lbs" />
+
+        <ImageView
+            android:id="@+id/popupwindow_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/popoupwindow_camera"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/tabbar_compose_photo" />
+
+        <ImageView
+            android:id="@+id/popupwindow_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/popupwindow_idea"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/tabbar_compose_review" />
+
+        <ImageView
+            android:id="@+id/popupwindow_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/popupwindow_lbs"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/tabbar_compose_more" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
